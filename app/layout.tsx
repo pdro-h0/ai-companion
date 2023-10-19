@@ -23,7 +23,7 @@ export default function RootLayout({
         <body>
           <ThemeProvider
             attribute="class"
-            forcedTheme="dark"
+            defaultTheme="system"
             enableSystem
           >
             {children}
